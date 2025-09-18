@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "desk_docs": {
+      "command": "/opt/anaconda3/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/<username>/workspace/mcp-servers/quickstart-resources/weather-server-python",
+        "run",
+        "desktop_files.py"
+      ]
+    },
+    "weather": {
+      "command": "/opt/anaconda3/bin/uv",
+      "args": [
+        "--directory",
+        "/Users/<username>/workspace/mcp-servers/quickstart-resources/weather-server-python",
+        "run",
+        "weather.py"
+      ]
+    }
+  }
+}
